@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ViewCard {
+    width: 25%;
+    height: 45vh;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.ViewCard span {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.delete {
+    color: white;
+    background: red;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.Back {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: blue;
+    border-radius: 50%;
+    transform: scale(2);
+    font-size: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 350ms;
+}
+
+.Back:hover {
+    background: rgb(1, 1, 71);
+}

@@ -1,0 +1,68 @@
+*{
+   padding: 0PX;
+   margin: 0PX;
+   box-sizing: border-box;
+}
+
+main {
+   /* padding: 10px; */
+   width: 100%;
+   height: max-content;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+/* .Card {
+   width: 20%;
+   height: 60vh;
+   background: linear-gradient(450deg, #8B1874, #FC4F00);
+   border-radius: 70% 10% 70% 10%;
+} */
+
+/* .Card {
+   width: 60px;
+   height: 60px;
+   background: #000;
+   border-radius: 50%;
+   background-image: url("https://yt3.ggpht.com/yti/AHyvSCAWCWEXR9egt_rPp5YrZHjFcAVeDARtFEWgogMcZw=s88-c-k-c0x00ffffff-no-rj-mo");
+   background-size: cover;
+} */
+
+
+.Left {
+   width: 10%;
+   height: 100vh;
+   background: #000;
+}
+
+.Right {
+   width: 88%;
+   height: 100vh;
+   background: red;
+}
+
+.InputS {
+   width: 30%;
+   height: 40px;
+   background: gray;
+   display: flex;
+   align-items: center;
+   border-radius: 7px;
+   border: 1px solid grey;
+}
+
+.InputS input {
+   width: 85%;
+   height: 100%;
+   border: none;
+   outline: none;
+   border-radius: 7px 0px 0px 7px;
+   padding-left: 10px;
+}
+
+.InputS img {
+   width: 25px;
+   cursor: pointer;
+   margin-left: 2%;
+}

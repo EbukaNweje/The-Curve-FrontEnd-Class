@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.Warpper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 35%;
+    height: 100%;
+    background: rgb(39, 0, 0);
+    padding: 20px;
+}
+
+.Title h2 {
+    font-size: 30px;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Title h2 span{
+    font-size: 30px;
+    color: white
+}
+
+.InputUser {
+    width: 100%;
+    height: 76%;
+    /* background: #000; */
+    margin: 10% auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.InputUser label {
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.InputUser input, select {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid gray;
+    margin-bottom: 5%;
+    padding-left: 10px;
+}
+
+.Btn {
+    width: 100%;
+    height: 40px;
+    background: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+footer {
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BigImage{
+    width: 60%;
+    height: 100%;
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigImage img {
+    width: 100%;
+    height: 80%;
+}
+
