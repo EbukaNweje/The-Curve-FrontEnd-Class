@@ -1,0 +1,32 @@
+
+    @media screen and (max-width: 960px) {
+        .topHeader {
+            display: none;
+        }
+
+        .Logo,.Btn,nav{
+            display: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: flex-start;
+            position: fixed;
+        }
+
+        .Menu {
+            display: block;
+            margin-left: 5%;
+            font-size:30px;
+        }
+
+        .MobileMenu {
+            display: none;
+            width: 100%;
+            height: 100vh;
+            background: red;
+            position: absolute;
+            top: 0;
+        }
+        
+    }

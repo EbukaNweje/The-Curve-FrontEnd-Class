@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Container{
+    width: 60%;
+    height: 70%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.Inp{
+    width: 45%;
+    height: 80%;
+    border: none;
+    outline: none;  
+    padding: 5px;
+}
+.Btn{
+    width: 45%;
+    height: 80%;
+    border: none;
+    outline: none;  
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+
+}
+.ColorShow{
+    width: 60%;
+    height: 70%;
+    background-color: white;
+}
